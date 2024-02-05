@@ -1,0 +1,40 @@
+table, th, td {
+    border-style: solid;
+    border-width: 2px;       
+    border-color : black;
+    border-collapse: collapse;
+    }
+    th { background-color: grey ;}
+    td {
+    width: 300px;
+    text-align: center;
+    }
+
+  
+
+/*cadre du texte*/
+.box {
+  width: 100em;   /*longueur du cadre*/
+  height: 100%;   /*hauteur du cadre */
+  border: 1px solid #333;
+  box-shadow: 4px 4px 2px #444;
+  /*padding: 8px 12px;*/
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  margin-left: auto;  /*centrer*/
+  margin-right: auto; /*centrer*/
+  margin-bottom: auto;
+  text-align: center  
+}
+
+.centre{
+  margin: auto;
+}
+
+.marge{
+  margin: 1%;
+}
+
+body {
+  
+  font-family: 'Source code pro', Calibri, serif;
+}
